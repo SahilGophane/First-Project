@@ -1,6 +1,5 @@
 import pandas as pd
 
-def first_class(self,n):
-    print(n)
-
-d = first_class('hello world')
+def first_class(n):
+    return n
+print(first_class('hello world'))
