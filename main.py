@@ -1,5 +1,6 @@
-def first_class(n):
-    return n
-d = first_class('blank class')
-print(d)
-print('everything is working fine')
+class Solution:
+    def longestCommonPrefix(self, str):
+        return str
+f = 'this is something'
+d = Solution()
+print(d.longestCommonPrefix(f))
